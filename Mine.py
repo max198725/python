@@ -1,3 +1,5 @@
+import os
+os.clear
 print("дЭбылный кулькулятор v1")
 print("")
 a = float(input("Введите первое число: "))
