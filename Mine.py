@@ -1,4 +1,4 @@
-import colorama
+from colorama import Fore, Back, Style
 import os
 os.system("clear")
 Back.GREEN
