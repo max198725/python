@@ -1,7 +1,7 @@
 from colorama import Fore, Back, Style
 import os
 os.system("clear")
-Style.GREEN
+Fore.BLUE
 print("дЭбылный кулькулятор v1")
 print("")
 a = float(input("Введите первое число: "))
