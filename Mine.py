@@ -10,13 +10,17 @@ while i < 10:
 			a = float(input("Введите первое число: "))
 			break
 		except ValueError:
+                        print("")
 			print("Попробуй ещё раз, видимо у тебя была буква в числе")
+                        print("")
 	while True:
 			try:
 				b = float(input("Введите второе число: "))
 				break
 			except ValueError:
+                                print("")
 				print("Попробуй ещё раз, видимо у тебя была буква в числе")
+                                print("")
 	while True:
 			d = input("Что ты хочешь сделать? +, -, *, /: ")
 			try:
@@ -33,13 +37,18 @@ while i < 10:
 					c = a / b
 					break
 				else:
+                                        print("")
 					print("Ты невернно ввёл действие, попробуй ещё раз")
+                                        print("")
 					continue
 			except ZeroDivisionError:
+                                print("")
 				print("Дружище, на 0 делить нельзя, попробуй ещё раз")
+                                print("")
 				continue
 	while True:
 				print("Ответ:", c)
+                                print("")
 				break
 	while i < 10:
 				m = input(("Хотите ещё раз? Да или нет: "))
