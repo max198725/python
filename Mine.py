@@ -7,4 +7,5 @@ a = float(input("Введите первое число: "))
 b = float(input("Введите второе число: "))
 c = a + b
 print(c)
+print(Fore.RESET + "")
 
