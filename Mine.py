@@ -1,1 +1,1 @@
-print("Hello")
+input("Хацо гандон")
