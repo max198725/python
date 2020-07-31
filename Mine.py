@@ -5,6 +5,7 @@ print(Fore.BLUE + "дЭбылный кулькулятор v1")
 print("")
 a = float(input("Введите первое число: "))
 b = float(input("Введите второе число: "))
+print("")
 c = a + b
 print(c)
 print(Fore.RESET + "")
