@@ -1,5 +1,6 @@
 import os
-os.clear
+cls = lambda: os.system('cls')
+cls
 print("дЭбылный кулькулятор v1")
 print("")
 a = float(input("Введите первое число: "))
